@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,28 +7,22 @@
   }
   
   :root{
-    /* Width */
     --width-lg:80%;
     --width-md:85%;
     --width-sm:90%;}
   .topbackground{
     background-color:rgb(201, 83, 83);
     height: 90vh;
-    /* width: 100%; */
     border-bottom-left-radius: 3cm;
   }
   .logo h1{
     color: white;
-    /* margin-left: 3.5cm;
-    margin-top: -12cm; */
   }
   .navbarr {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* margin-left: 7cm;
-    margin-top: -35px; */
   }
   
   .navbarr ul {
@@ -45,15 +39,10 @@
   }
   
   .aside {
-    /* background-color: aqua; */
     margin-left: 6cm;
     width: 4cm;
     display: flex;
     gap: 1cm;
   }
-  .login{
-    
-  }
   
-  
-  
+   */

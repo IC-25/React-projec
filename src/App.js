@@ -2,6 +2,7 @@ import phone from './images/illustration-phones.svg';
 import deskcircle from './images/illustration-editor-desktop.svg';
 import lapcircle from './images/illustration-laptop-desktop.svg';
 import allow from './images/icon-arrow-light.svg';
+import phonecircle from './images/bg-pattern-circles.svg';
 // import desktop from './images/college.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -56,11 +57,11 @@ function App() {
 
     <div className="col-md-3"></div>
     <div className="col-md-6 content" >
-        <h2 style={{color:"white"}} >Modern publishing platform</h2>
+        <h1 style={{color:"white"}} >A modern publishing platform</h1>
         <p>Grow your audience and build your online bland</p>
         <div className='aside-btn'>
           <button className='buttom2'>Start for Free</button> 
-          <button  className='buttom2'>Learn More</button>
+          <button  className='buttom3'>Learn More</button>
        </div>
     </div>
     <div className="col-md-3"></div>
@@ -68,16 +69,20 @@ function App() {
 </div>
 
 <div className="row">
-  <div className="col-md-12  secondrow"> <h2>Desgned for the future</h2></div>
+  <div className="col-md-12  secondrow"> <h3>Desgned for the future</h3></div>
 </div>
 
 <div className="row">
 <div className="col-md-6  row3">
-   <h2>Modern publishing platform</h2>
-   <p>In the above code, we are using the Navbar, Nav, NavDropdown, Form, FormControl, and Button components from the react-bootstrap library to create the Navbar. The Navbar.Brand component is used to display the logo and the title of the app on the left side of the Navbar. The Navbar.Toggle component is used to toggle the visibility of the Navbar on smaller screens. 
-    The Navbar.Collapse component is used to wrap the content of the Navbar and show</p>
+   <h4>Introducing an extensible editor</h4>
+   <p>Blogr features an exceedingly intuitive interface which lets you focus<br></br>
+    on the thing: creating content. The editor supports management of<br></br>
+    multiple blogs and allows easy manipulation of embends such as images,<br></br>
+    Videos and Markdown. Extensibility with plugins and themes provide<br></br>
+    easy ways to add functinality or changethe looks of a blog.<br></br>
+   </p>
 
-    <h2>Modern publishing platform</h2>
+    <h4>Free,open simple</h4>
    <p>In the above code, we are using the Navbar, Nav, NavDropdown, Form, FormControl, and Button components from the react-bootstrap library to create the Navbar. The Navbar.Brand component is used to display the logo and the title of the app on the left side of the Navbar. The Navbar.Toggle component is used to toggle the visibility of the Navbar on smaller screens. 
     The Navbar.Collapse component is used to wrap the content of the Navbar and show</p>
   </div>
@@ -91,17 +96,19 @@ function App() {
 
 <div className="row blackrow">
 <div className="col-md-6  row3"> 
-  
   <img src={phone} className='phone'/>
-   
+  <img  src={phonecircle} className='phonecircle'    />
 
-   
   </div>
+  
 
   <div className="col-md-6  fo">
-  <h2>State of the Art infrastructure</h2>
-   <p> In the above code, we are using the Navbar, Nav, NavDropdown,
-     Form,In the above code, we are using the Navbar, Nav, NavDropdown, Form,  </p>
+  <h4>State of the Art infrastructure</h4>
+   <p> With reliability and speed in mind, worldwide data centers provide the <br></br>
+    backbone for ultra-fast connectivity. this ensures your site will load <br></br>
+    instantly,no matter where your leaders are,keeping your site <br></br>
+    competitive.
+   </p>
   </div>
 
 </div>
@@ -114,15 +121,15 @@ function App() {
 <img src={lapcircle} className='lapcircle'/>
   </div>
 <div className="col-md-6  row3">
-   <h2>Modern publishing platform</h2>
-   <p>In the above code, we are using the Navbar, Nav, NavDropdown, Form, 
-    FormControl, and Button components from the react-bootstrap library to create
-     the Navbar. The Navbar.Brand component is used to display the logo and the title of the
-      app on the left side of the Navbar. The 
-     Navbar.Toggle component is used to toggle </p>
+   <h4>Free,Open,Simple</h4>
+   <p>Blogr is free and open source application backed by a large<br></br>
+   community of helpful developers. it supports features such as code<br></br>
+   syntax highlighting,RSS feeds,social media integration,third-party<br></br>
+   commenting tools,and works seamlessly with Google Analytics. The
+   architecture is clean and is relatively easy to learn. </p>
      <br/><br/>
 
-    <h2>Modern publishing platform</h2>
+    <h4>Modern publishing platform</h4>
    <p>In the above code, we are using the Navbar, Nav, NavDropdown, Form, FormControl, and Button 
     components from the react-bootstrap library to create the Navbar. The Navbar.Brand component
      is used to display the logo</p>

@@ -2,7 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
 }
 .aside{
   display: flex;
@@ -11,15 +16,25 @@
 }
 .buttom{
 background-color: rgba(255, 255, 255, 0);
-border-radius:40%;
+border-radius:3cm;
 color: white;
 height: 1.5cm;
 width: 5cm;
+border-color:none;
+
 }
 .btn_aside button:hover {
   background-color: rgba(255, 255, 255, 0.301);
+  
 }
 .content .buttom2 {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius:3cm;
+  color: white;
+  height: 1.5cm;
+  width: 5cm;
+}
+.content .buttom3 {
   background-color: rgba(255, 255, 255, 0);
   border-radius:3cm;
   color: white;
@@ -29,7 +44,10 @@ width: 5cm;
 .content .buttom2:hover{
   background-color: rgba(255, 255, 255, 0.301);
 }
-
+.content .buttom3:hover{
+  background-color: white;
+  color:rgb(201, 83, 83) ;
+}
 .nav1{
   padding: 1cm;
   background-color:rgb(201, 83, 83);
@@ -55,9 +73,6 @@ width: 5cm;
 .navbarr ul li {
   margin-right: 10px;
   color:white;
-}
-.navbarr .lii1 ul li {
-  
 }
 h1{
   color: white;
@@ -91,20 +106,21 @@ text-align: center;
   color: black;
   padding: 1cm;
 }
-.row3 p,h2{
+.row3 p,h4{
   color:black;
   text-align: justify;
-  margin-left: 80px;
+  margin-left: 43px;
   /* padding: 1cm; */
 }
 .fo{
   padding-top: 3cm;
-  padding-right: 3cm;
-  text-align: justify;
+  /* padding-right: 3cm; */
+  /* text-align: justify; */
 }
-.fo h2,p{
+.fo h4,p{
   text-align: justify;
   color: white;
+  margin-left: 80px;
 }
 .fo h2{
  margin-left: -0cm;
@@ -176,7 +192,7 @@ aside {
   background-color: none;
   
 }
- @media only screen and (max-width: 700px) {
+@media screen AND (max-width: 700px){
   
    .footer2,.footer3,.footer4,.footer1{
     text-align: center;
@@ -194,14 +210,73 @@ aside {
      margin-left: 1cm;
      padding-right: 1cm;
   }
-  .fo h2{
-  
+  .deskcircle{
+    width: 9cm;
+    height: 7cm;
+    /* margin-left:40px; */
+    margin-top: -120px;
+    margin-left: 8px;
+   }
+   .row3.phone{
+    width: 20%;
+    height: 30%;
+    margin-left:-2cm;
+    /* z-index: 100; */
+    /* position: absolute; */
+    margin-top: -12rem;
   }
+  .lapcircle{
+    height: 9cm;
+    width: 10cm;
+    margin-left: -10px;
+    /* margin-left: -220px; */
+  }
+  .phone{
+    height: 6cm;
+    width: 10cm;
+    margin-left: -4cm;
+    z-index: 100;
+    position: relative;
+  }
+  .phonecircle{
+    height: 8cm;
+    width: 13cm;
+    position: relative;
+    margin-top: 0cm;
+  }
+  .content .buttom2 {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius:3cm;
+    color: white;
+    height: 3cm;
+    width: 5cm;
+  }
+  .content .buttom3 {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius:3cm;
+    color: white;
+    height: 3cm;
+    width: 5cm;
+  }
+  /* .blackrow{
+    background-color:rgb(37, 35, 35);
+    border-bottom-left-radius: 3cm;
+    border-top-right-radius: 3cm;
+    width: 100%;
+  } */
 }
 /* //images */
 
 .phone{
-  height: 7cm;
-  width: 7cm;
+  height: 11cm;
+  width: 10cm;
   margin-left: 2cm;
+  z-index: 100;
+  position: absolute;
+}
+.phonecircle{
+  height: 8cm;
+  width: 13cm;
+  position: relative;
+  margin-top: 0cm;
 }
