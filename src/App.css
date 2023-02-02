@@ -50,12 +50,21 @@ border-color:none;
 }
 .nav1{
   padding: 1cm;
-  background-color:rgb(201, 83, 83);
+  background-color:rgb(243, 78, 78);
+  background-image: url(./images/bg-pattern-intro-desktop.svg);
+  background-position: center;
+  /* transform: scale(2); */
+  background-size: cover;
   height: 90vh;
   border-bottom-left-radius: 3cm;
   width: 100%;
 }
-
+.connectcolor{
+  color: white;
+}
+.slopcolor{
+  color: black;
+}
 .navbarr {
   display: flex;
   justify-content: space-between;
@@ -72,7 +81,6 @@ border-color:none;
 }
 .navbarr ul li {
   margin-right: 10px;
-  color:white;
 }
 h1{
   color: white;
@@ -92,7 +100,7 @@ text-align: center;
 .aside-btn{
   margin-left: 4cm;
   display: flex;
-  gap: 1cm;
+  gap: 1cm; 
 }
 .secondrow {
   margin-top: 1cm;
@@ -186,13 +194,14 @@ h6{
 
 .buttom{
   background-color: none;
-  
+  height: 40px;
+  width: 80px;
 }
 aside {
   background-color: none;
   
 }
-@media screen AND (max-width: 700px){
+@media screen AND (max-width: 780px){
   
    .footer2,.footer3,.footer4,.footer1{
     text-align: center;
@@ -217,66 +226,57 @@ aside {
     margin-top: -120px;
     margin-left: 8px;
    }
-   .row3.phone{
+   /* .row3.phone{
     width: 20%;
     height: 30%;
     margin-left:-2cm;
-    /* z-index: 100; */
-    /* position: absolute; */
     margin-top: -12rem;
-  }
+  } */
   .lapcircle{
     height: 9cm;
     width: 10cm;
     margin-left: -10px;
     /* margin-left: -220px; */
   }
-  .phone{
-    height: 6cm;
-    width: 10cm;
-    margin-left: -4cm;
-    z-index: 100;
-    position: relative;
+  .row3 .phone{
+    height: 4cm;
+    width: 3cm;
+    margin-top: -2cm;
+    margin-left: 110px;
   }
-  .phonecircle{
-    height: 8cm;
-    width: 13cm;
+
+  .row3.phonecircle{
+    height: 2cm;
+    width: 3cm;
     position: relative;
-    margin-top: 0cm;
   }
   .content .buttom2 {
     background-color: rgba(255, 255, 255, 0);
     border-radius:3cm;
     color: white;
-    height: 3cm;
-    width: 5cm;
+    height: 100px;
+    width: 200;
   }
   .content .buttom3 {
     background-color: rgba(255, 255, 255, 0);
     border-radius:3cm;
     color: white;
-    height: 3cm;
-    width: 5cm;
+    height: 100px;
+    width: 200;
   }
-  /* .blackrow{
-    background-color:rgb(37, 35, 35);
-    border-bottom-left-radius: 3cm;
-    border-top-right-radius: 3cm;
-    width: 100%;
-  } */
 }
 /* //images */
 
 .phone{
-  height: 11cm;
-  width: 10cm;
+  height: 9cm;
+  width: 8cm;
   margin-left: 2cm;
   z-index: 100;
   position: absolute;
 }
 .phonecircle{
-  height: 8cm;
-  width: 13cm;
-  position: relative;
-  margin-top: 0cm;
+  width: 7cm;
+  height: 7cm;
+  margin-bottom: -30px;
+  margin-left: 30px;
 }

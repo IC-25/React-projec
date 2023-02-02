@@ -28,14 +28,14 @@ function App() {
 <div className='navbarr' >
 <ul>
 <a href="url"><li>Product <img src={allow} className='allow'/> </li></a>
-<a href="url"><li className='lii1' >Company <img src={allow} className='allow'/> </li></a>
+<a href="url"><li>Company <img src={allow} className='allow'/> </li></a>
 
     
-  <li  style={{position:"relative"}} onClick={()=>setDrop(!drop)}>Connect <img src={allow} className='allow'/>
-  <ul  style={{position:"absolute",display:drop?"block":"none",color:"black",padding:"1rem",top:"2rem",left:"0"}}>
-  <li>Contact</li>
-    <li>Newsletter</li>
-    <li>Linkedln</li> 
+<li className="connectcolor"  style={{position:"relative"}} onClick={()=>setDrop(!drop)}>Connect <img src={allow} className='allow'/>
+  <ul style={{position:"absolute",display:drop?"block":"none",color:"black",backgroundColor:"white",padding:"1rem",top:"2rem",left:"0"}}>
+  <a href="url"> <li className='slopcolor' >Contact</li></a>
+  <a href="url"><li className='slopcolor' >Newsletter</li></a>
+  <a href="url"><li className='slopcolor' >Linkedln</li> </a>
 
 
   </ul>
